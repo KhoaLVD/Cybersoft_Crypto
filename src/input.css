@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #151937;
+}
+.banner-info p, .platform .title p, .feedback .title p{
+    color: #C4C5CD;
+    font-size: 18px;
+}
+.card-content{
+    background-color: #212541;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 24px 0;
+    
+}
+.card-content h3{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+.card-content p{
+    color: #58657A;
+    margin-bottom: 16px;
+}
+.card-content i{
+    color: #9CA3AF;
+    font-size: 24px;
+}
+.feedback___card__content{
+    background-color: #44475F;
+    padding: 36px;
+    margin: 16px;
+    border-radius: 16px;
+}
+.feedback___card__content h3{
+    color: white;
+    font-size: 20px;
+}
+.feedback___card__content ul{
+    margin-right: 8px
+}
+
+.slick-dots li button:before{
+    color: white;
+    font-size: 1rem;
+}
+.slick-dots li.slick-active button:before{
+    color: #FF5EA3;
+    font-size: 1rem;
+}
+.footer__info{
+    padding: 24px 0;
+    background-color: #212541;
+    border-radius: 16px;
+}
+.input_custom {
+    background-color: #2C304B;
+    border: none;
+}
